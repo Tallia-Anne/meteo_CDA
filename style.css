@@ -32,6 +32,15 @@ height: 65vh;
 gap: 12px;
 }
 
+.container .container_temp i{
+font-size: 30px; 
+color:white
+}
+
+.container .container_temp p{
+font-size: 20px; 
+color:white
+}
 .container .container_other {
 width: 100%;
 display: flex;
@@ -46,9 +55,14 @@ height: 20vh;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 }
 .container .container_other .box:nth-child(1) {
 width: 50%;
 height: 20vh;
 border-right: 2px solid white;
+}
+
+.container .container_other .box p {
+color:white
 }
